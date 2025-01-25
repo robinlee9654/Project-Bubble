@@ -19,4 +19,12 @@ public class ItemPickUP : MonoBehaviour
         InventoryManager.Instance.Add(item); // add item to inventory
         Destroy(gameObject); //destroy the original item on the map
     }
+
+    /// OnMouseDown is called when the user has pressed the mouse button while
+    /// over the GUIElement or Collider.
+    /// </summary>
+    private void OnMouseDown()
+    {
+        PickUp();
+    }
 }
