@@ -2,29 +2,18 @@ using UnityEngine;
 
 public class EnemyDrop : MonoBehaviour
 {
-    public GameObject armorItemPrefab;
-    public GameObject staminaItemPrefab;
-    public float dropChance = 0.5f;
-    public float armorTimeBoost = 5f; // Time boost for armor items
-    public float staminaTimeBoost = 10f; // Time boost for stamina items
+    public GameObject armorItemPrefab; // Assign in the inspector
+    public GameObject staminaItemPrefab; // Assign in the inspector
+    public float dropChance = 0.7f; // 50% chance to drop an item
 
     public void DropItem()
     {
         if (Random.value <= dropChance)
         {
-            GameObject itemToDrop;
-            if (Random.value > 0.5f)
-            {
-                itemToDrop = armorItemPrefab;
-                itemToDrop.GetComponent<ItemPickup>().timeBoost = armorTimeBoost;
-            }
-            else
-            {
-                itemToDrop = staminaItemPrefab;
-                itemToDrop.GetComponent<ItemPickup>().timeBoost = staminaTimeBoost;
-            }
+            // Randomly decide which item to drop
+            GameObject itemToDrop = Random.value > 0.5f ? armorItemPrefab : staminaItemPrefab;
 
-            // Instantiate the item
+            // Instantiate the item at the enemy's position
             Instantiate(itemToDrop, transform.position, Quaternion.identity);
         }
     }
@@ -34,3 +23,4 @@ public class EnemyDrop : MonoBehaviour
         DropItem();
     }
 }
+
