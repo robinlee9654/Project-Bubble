@@ -4,8 +4,6 @@ Library/
 # Ignore Unity's Temp folder
 Temp/
 
-# Ignore Unity Editor log files
-Editor.Logs
-Editor-prev.Logs
+TeamBubble/Logs/
 
 
