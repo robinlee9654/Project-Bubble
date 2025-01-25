@@ -1,31 +1,30 @@
 using UnityEngine;
 
-public class ItemPickup : MonoBehaviour
+public class ItemPickUP : MonoBehaviour
 {
-    public enum ItemType { Armor, Stamina }
-    public ItemType itemType;
-    public int value = 20; // Value to add to armor or stamina
-    public float timeBoost = 5f; // Time boost to armor or stamina duration
-
-    private void OnTriggerEnter(Collider other)
+    public Item item;
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
     {
-        if (other.CompareTag("Player"))
-        {
-            PlayerStats playerStats = other.GetComponent<PlayerStats>();
-            if (playerStats != null)
-            {
-                if (itemType == ItemType.Armor)
-                {
-                    playerStats.ExtendArmorTime(timeBoost);
-                }
-                else if (itemType == ItemType.Stamina)
-                {
-                    playerStats.ExtendStaminaTime(timeBoost);
-                }
+        
+    }
 
-                // Destroy the item after being picked up
-                Destroy(gameObject);
-            }
-        }
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    private void PickUp(){
+        InventoryManager.Instance.Add(item); // add item to inventory
+        Destroy(gameObject); //destroy the original item on the map
+    }
+
+    /// OnMouseDown is called when the user has pressed the mouse button while
+    /// over the GUIElement or Collider.
+    /// </summary>
+    private void OnMouseDown()
+    {
+        PickUp();
     }
 }
