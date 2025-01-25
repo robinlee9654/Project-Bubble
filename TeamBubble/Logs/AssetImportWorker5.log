@@ -2634,3 +2634,738 @@ Received Import Request.
 Start importing Assets/sprites/UI/HP_Bar_UI.png using Guid(0874d6d20043f22478d05f7bbdb47e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41b54791031f81f8e04f29f94b54751a') in 0.3230053 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6513 unused Assets / (4.6 MB). Loaded Objects now: 7362.
+Memory consumption went from 152.7 MB to 148.1 MB.
+Total: 674.994200 ms (FindLiveObjects: 12.655200 ms CreateObjectMapping: 5.036600 ms MarkObjects: 641.907300 ms  DeleteObjects: 15.390100 ms)
+
+Prepare: number of updated asset objects reloaded= 14
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 24.162 seconds
+Refreshing native plugins compatible for Editor in 6.91 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.239 seconds
+Domain Reload Profiling: 27403ms
+	BeginReloadAssembly (7959ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (373ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (6439ms)
+	RebuildCommonClasses (108ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (109ms)
+	LoadAllAssembliesAndSetupDomain (15967ms)
+		LoadAssemblies (11714ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (4963ms)
+			TypeCache.Refresh (758ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (3439ms)
+			ResolveRequiredComponents (103ms)
+	FinalizeReload (3240ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2269ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (19ms)
+			BeforeProcessingInitializeOnLoad (362ms)
+			ProcessInitializeOnLoadAttributes (1462ms)
+			ProcessInitializeOnLoadMethodAttributes (376ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (62ms)
+Refreshing native plugins compatible for Editor in 4.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6564 unused Assets / (5.1 MB). Loaded Objects now: 7389.
+Memory consumption went from 151.5 MB to 146.4 MB.
+Total: 32.726900 ms (FindLiveObjects: 2.711000 ms CreateObjectMapping: 2.444500 ms MarkObjects: 14.675400 ms  DeleteObjects: 12.893300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6566 unused Assets / (6.2 MB). Loaded Objects now: 7390.
+Memory consumption went from 155.7 MB to 149.5 MB.
+Total: 30.986000 ms (FindLiveObjects: 2.759800 ms CreateObjectMapping: 3.121400 ms MarkObjects: 13.985900 ms  DeleteObjects: 11.114400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.946 seconds
+Refreshing native plugins compatible for Editor in 4.00 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.604 seconds
+Domain Reload Profiling: 3552ms
+	BeginReloadAssembly (531ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (34ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (151ms)
+	RebuildCommonClasses (86ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (1246ms)
+		LoadAssemblies (968ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (523ms)
+			TypeCache.Refresh (35ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (461ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1606ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1190ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (235ms)
+			ProcessInitializeOnLoadAttributes (799ms)
+			ProcessInitializeOnLoadMethodAttributes (115ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 4.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6577 unused Assets / (6.6 MB). Loaded Objects now: 7392.
+Memory consumption went from 155.4 MB to 148.9 MB.
+Total: 32.491000 ms (FindLiveObjects: 3.177200 ms CreateObjectMapping: 3.122500 ms MarkObjects: 14.965200 ms  DeleteObjects: 11.222500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 3035.784356 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(2b58f8ca4e1ef944c84b53076ba00bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(2b58f8ca4e1ef944c84b53076ba00bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0561d2cbd4d1e9c6d1c614c2e7e603f4') in 1.2170359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 643.299277 seconds.
+  path: Assets/sprites/UI/HP_Bar_UI.png
+  artifactKey: Guid(0874d6d20043f22478d05f7bbdb47e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/UI/HP_Bar_UI.png using Guid(0874d6d20043f22478d05f7bbdb47e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bba63338d8a7b141312ccd0bc70517e') in 0.0498308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/sprites/UI/HP_UI.png
+  artifactKey: Guid(215533b455253ab4e846447b8abbbb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/UI/HP_UI.png using Guid(215533b455253ab4e846447b8abbbb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14da0b1d13d662515e8225d24772542f') in 0.0165486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6567 unused Assets / (5.4 MB). Loaded Objects now: 7559.
+Memory consumption went from 161.9 MB to 156.5 MB.
+Total: 87.968700 ms (FindLiveObjects: 1.716600 ms CreateObjectMapping: 1.768700 ms MarkObjects: 79.071100 ms  DeleteObjects: 5.408400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.948 seconds
+Refreshing native plugins compatible for Editor in 2.05 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.974 seconds
+Domain Reload Profiling: 2920ms
+	BeginReloadAssembly (778ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (95ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (335ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (1033ms)
+		LoadAssemblies (941ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (355ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (313ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (975ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (728ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (148ms)
+			ProcessInitializeOnLoadAttributes (487ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6578 unused Assets / (6.1 MB). Loaded Objects now: 7459.
+Memory consumption went from 158.5 MB to 152.4 MB.
+Total: 17.082600 ms (FindLiveObjects: 0.964700 ms CreateObjectMapping: 2.347700 ms MarkObjects: 8.448500 ms  DeleteObjects: 5.320200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1135.179869 seconds.
+  path: Assets/scripts/Health_ArmorBar.cs
+  artifactKey: Guid(f44e90d3ca3f9f74a893111b310c9e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Health_ArmorBar.cs using Guid(f44e90d3ca3f9f74a893111b310c9e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.060487 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/health_armorbar.cs in SourceAssetDB has modification time of '2025-01-25T08:24:05.9375929Z' while content on disk has modification time of '2025-01-25T08:24:20.597921Z'
+  ERROR: Build asset version error: assets/scripts/health_armorbar.cs in SourceAssetDB has modification time of '2025-01-25T08:24:05.9375929Z' while content on disk has modification time of '2025-01-25T08:24:20.597921Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6567 unused Assets / (5.9 MB). Loaded Objects now: 7459.
+Memory consumption went from 158.5 MB to 152.6 MB.
+Total: 12.381700 ms (FindLiveObjects: 0.831600 ms CreateObjectMapping: 0.958100 ms MarkObjects: 6.503600 ms  DeleteObjects: 4.087000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.957 seconds
+Refreshing native plugins compatible for Editor in 2.85 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.885 seconds
+Domain Reload Profiling: 1843ms
+	BeginReloadAssembly (258ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (606ms)
+		LoadAssemblies (450ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (283ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (253ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (886ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (657ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (426ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6578 unused Assets / (6.2 MB). Loaded Objects now: 7461.
+Memory consumption went from 158.3 MB to 152.1 MB.
+Total: 10.894900 ms (FindLiveObjects: 0.784700 ms CreateObjectMapping: 0.535400 ms MarkObjects: 5.821900 ms  DeleteObjects: 3.751600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6567 unused Assets / (6.2 MB). Loaded Objects now: 7461.
+Memory consumption went from 158.5 MB to 152.3 MB.
+Total: 36.051000 ms (FindLiveObjects: 1.829600 ms CreateObjectMapping: 0.971100 ms MarkObjects: 28.037800 ms  DeleteObjects: 5.210200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.291 seconds
+Refreshing native plugins compatible for Editor in 2.19 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.877 seconds
+Domain Reload Profiling: 2166ms
+	BeginReloadAssembly (385ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (33ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (117ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (794ms)
+		LoadAssemblies (689ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (274ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (242ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (877ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (647ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (427ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 2.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6578 unused Assets / (6.1 MB). Loaded Objects now: 7463.
+Memory consumption went from 158.3 MB to 152.2 MB.
+Total: 12.081900 ms (FindLiveObjects: 0.764800 ms CreateObjectMapping: 0.646500 ms MarkObjects: 6.716900 ms  DeleteObjects: 3.952200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6567 unused Assets / (2.7 MB). Loaded Objects now: 7463.
+Memory consumption went from 158.5 MB to 155.8 MB.
+Total: 39.606000 ms (FindLiveObjects: 1.005000 ms CreateObjectMapping: 0.784000 ms MarkObjects: 32.761900 ms  DeleteObjects: 5.053100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.907 seconds
+Refreshing native plugins compatible for Editor in 2.97 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.827 seconds
+Domain Reload Profiling: 1733ms
+	BeginReloadAssembly (232ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (585ms)
+		LoadAssemblies (412ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (275ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (247ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (827ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (612ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (401ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6578 unused Assets / (5.6 MB). Loaded Objects now: 7465.
+Memory consumption went from 158.3 MB to 152.6 MB.
+Total: 11.286900 ms (FindLiveObjects: 0.814000 ms CreateObjectMapping: 0.524800 ms MarkObjects: 6.112600 ms  DeleteObjects: 3.833800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1001.653747 seconds.
+  path: Assets/sprites/tilemaps/Snow Tile 1 768.png
+  artifactKey: Guid(de2f842e33f1bc0469507ae7b4b82363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/Snow Tile 1 768.png using Guid(de2f842e33f1bc0469507ae7b4b82363) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'caa6c3600e7fa66b0e62f15631dbe8be') in 0.3974265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/tilemaps/Snow Tile 1 768_3.asset
+  artifactKey: Guid(6692332419a2cd54ba4c69cc1e142f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/Snow Tile 1 768_3.asset using Guid(6692332419a2cd54ba4c69cc1e142f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c515d755fe35800f91be42238278349') in 0.0190452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/sprites/tilemaps/Wood_House_1.png
+  artifactKey: Guid(7d31e3b6784933f4db49e21fe29f4988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/Wood_House_1.png using Guid(7d31e3b6784933f4db49e21fe29f4988) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab3e800710752b2351b0d079130eb97e') in 0.0162646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sprites/tilemaps/Snow Tile 4 768.png
+  artifactKey: Guid(9b621d1791cdecb4f9add542ae7bf71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/Snow Tile 4 768.png using Guid(9b621d1791cdecb4f9add542ae7bf71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9c10bff38e92408d8def839a93e2655') in 0.0584493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sprites/tilemaps/Snow Tile 1 768_1.asset
+  artifactKey: Guid(1f86ba3f19a91a34192f00b684768f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/Snow Tile 1 768_1.asset using Guid(1f86ba3f19a91a34192f00b684768f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59cc8bf56ab66c76a2c34ac29a512e3c') in 0.0132038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/tilemaps/Snow Tile 8 768.png
+  artifactKey: Guid(16af66bea5cb3eb40b6d9c4d603ce54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/Snow Tile 8 768.png using Guid(16af66bea5cb3eb40b6d9c4d603ce54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29e9d8c856d3be3c37857d6b00db6689') in 0.0440522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/sprites/tilemaps/Snow Tile 1 768_8.asset
+  artifactKey: Guid(c434751c3bfae8c44b422d7cc9802206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/Snow Tile 1 768_8.asset using Guid(c434751c3bfae8c44b422d7cc9802206) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da746c4010e56cbcd5f63494dceb4136') in 0.0076856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sprites/tilemaps/Snow Tile 3 768.png
+  artifactKey: Guid(6baae6d6fb3a8144686fd09c52bbc7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/Snow Tile 3 768.png using Guid(6baae6d6fb3a8144686fd09c52bbc7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7eed22ee650b11489f2331ef4308da64') in 0.0379101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sprites/tilemaps/Snow Tile 1 768_2.asset
+  artifactKey: Guid(ec471fae7009f204c8e41296f08ec434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/Snow Tile 1 768_2.asset using Guid(ec471fae7009f204c8e41296f08ec434) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45c68c29bc6f81da2ee0c1268628532e') in 0.0078613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.500181 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Snow Tile 1 768_2.asset
+  artifactKey: Guid(a4855bd6677c31b4f92321bcb877d0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Snow Tile 1 768_2.asset using Guid(a4855bd6677c31b4f92321bcb877d0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b91a9311a3e2ec1300bc934f20581777') in 0.0097586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Snow Tile 3 768_3.asset
+  artifactKey: Guid(23d5f19bdc08f9245ad9517dd30df991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Snow Tile 3 768_3.asset using Guid(23d5f19bdc08f9245ad9517dd30df991) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f31d68c6ac543c31a5f7951aa274e2c0') in 0.010074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Snow Tile 4 768_5.asset
+  artifactKey: Guid(7a59dadc2c1a7a44e88ac6a23c53423e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Snow Tile 4 768_5.asset using Guid(7a59dadc2c1a7a44e88ac6a23c53423e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd605d1d664a52e0fb2f5936f423ee86') in 0.0084951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Snow Tile 1 768_7.asset
+  artifactKey: Guid(69e35f20764dc8f41a4fe33e7c1cb35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Snow Tile 1 768_7.asset using Guid(69e35f20764dc8f41a4fe33e7c1cb35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78717a62f5c451312bd95cca57a717c6') in 0.0097073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Snow Tile 1 768_6.asset
+  artifactKey: Guid(b3a97ce358a6182469e65b38a7f9929e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Snow Tile 1 768_6.asset using Guid(b3a97ce358a6182469e65b38a7f9929e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '152135abddb0d7f9bad2efdeb7c3c8eb') in 0.0118937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Snow Tile 2 768_3.asset
+  artifactKey: Guid(28aa850c7dac94243aa219d6792c2e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Snow Tile 2 768_3.asset using Guid(28aa850c7dac94243aa219d6792c2e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9557d334956a358db7a6f98fc99d4901') in 0.011045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Snow Tile 4 768_8.asset
+  artifactKey: Guid(df30d547c7c0fc54d9d8099a7d0a84b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Snow Tile 4 768_8.asset using Guid(df30d547c7c0fc54d9d8099a7d0a84b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90e6099f4cebd0b7fae4793004ae3ed1') in 0.0131703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Snow Tile 3 768_1.asset
+  artifactKey: Guid(9a2ed2dec43a0ed47871763fbd7dea19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Snow Tile 3 768_1.asset using Guid(9a2ed2dec43a0ed47871763fbd7dea19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b6e91f4678ff567cdcd929390c6082c') in 0.0108132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Snow Tile 1 768_8.asset
+  artifactKey: Guid(9a3323f65c6848f4cbe17bd0c5f33ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Snow Tile 1 768_8.asset using Guid(9a3323f65c6848f4cbe17bd0c5f33ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '456fad65e5cce4ad8fa25eff047e1038') in 0.0087972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Snow Tile 2 768_0.asset
+  artifactKey: Guid(9b2f12b3cea682846bc124a90e5bf14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Snow Tile 2 768_0.asset using Guid(9b2f12b3cea682846bc124a90e5bf14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86837aa3da8fd108669cd592a1e08dfb') in 0.0100308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Snow Tile 2 768_7.asset
+  artifactKey: Guid(77057108818984d44b70bbc5113290b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Snow Tile 2 768_7.asset using Guid(77057108818984d44b70bbc5113290b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b794d8c9004e80cadaa13c82c0a933a') in 0.0085902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Snow Tile 3 768_6.asset
+  artifactKey: Guid(dc6f7da9531b59d4897ec257cf52e446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Snow Tile 3 768_6.asset using Guid(dc6f7da9531b59d4897ec257cf52e446) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd57409d25c6509e7c13713f9bc99d491') in 0.0100503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Snow Tile 4 768_0.asset
+  artifactKey: Guid(87ae38c0fefcff2469247074505cc41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Snow Tile 4 768_0.asset using Guid(87ae38c0fefcff2469247074505cc41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28314c8a77771a39ff5e8dd994fb6f0c') in 0.0101195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.215151 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Snow Tile 6 768_6.asset
+  artifactKey: Guid(4f10d77c967ba294eab77bdc54f16a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Snow Tile 6 768_6.asset using Guid(4f10d77c967ba294eab77bdc54f16a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02ee585fba7ff7ed10110d87ebf95068') in 0.0136761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Snow Tile 7 768_0.asset
+  artifactKey: Guid(b10e58e31aace8c478546413cf6ffede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Snow Tile 7 768_0.asset using Guid(b10e58e31aace8c478546413cf6ffede) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '218f8f117228961eec27cf2665463ef6') in 0.0117562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Snow Tile 6 768_8.asset
+  artifactKey: Guid(ca6f2abc1977c9f47902f3a2c2b776dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Snow Tile 6 768_8.asset using Guid(ca6f2abc1977c9f47902f3a2c2b776dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ad057cd301e839bdccd0778b7475120') in 0.0134789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063671 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Snow Tile 8 768_0.asset
+  artifactKey: Guid(f6f778a6cc5b8bf4fb251e203266d234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Snow Tile 8 768_0.asset using Guid(f6f778a6cc5b8bf4fb251e203266d234) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd8fcfdd398641e4f90bcb4f00eb44d5') in 0.0210335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Snow Tile 8 768_7.asset
+  artifactKey: Guid(aaa5e8ef4db58c143b53afe8f8b39519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Snow Tile 8 768_7.asset using Guid(aaa5e8ef4db58c143b53afe8f8b39519) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3eb5598f288514933d0eed44c689396') in 0.0117836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Wood_House_1_4.asset
+  artifactKey: Guid(6776bf4f4876aa5498ea06b4e1386989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Wood_House_1_4.asset using Guid(6776bf4f4876aa5498ea06b4e1386989) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb6827ce4f7f85923cef71e3cf8fe324') in 0.0146211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Wood_House_1_5.asset
+  artifactKey: Guid(d796eec584fa9b348a1629eb1c4e29bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Wood_House_1_5.asset using Guid(d796eec584fa9b348a1629eb1c4e29bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ffc0d022fd8c8b8c30cbac5d854bd8c') in 0.0100918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Snow Tile 8 768_6.asset
+  artifactKey: Guid(11082a0269322ec43b19ea66489d76b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Snow Tile 8 768_6.asset using Guid(11082a0269322ec43b19ea66489d76b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6572d64077606f987e72b540e6b2ee2') in 0.0097305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Wood_House_1_3.asset
+  artifactKey: Guid(853ad9d6c00fe6644a5efd4bcb4b81d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Wood_House_1_3.asset using Guid(853ad9d6c00fe6644a5efd4bcb4b81d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdc541f3ad2101df4aeabbdc996cc1e8') in 0.0092856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.471384 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Snow_Tile_2_Clean_256_x_256.png
+  artifactKey: Guid(9e360538f60781d479c4797cb2ef636f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Snow_Tile_2_Clean_256_x_256.png using Guid(9e360538f60781d479c4797cb2ef636f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe8fa181b273e2ddd1815f3624c8540d') in 0.0131828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.596986 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Tree_Tile_256_x_256.png
+  artifactKey: Guid(0088fb38b68824f498b02830a406a0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Tree_Tile_256_x_256.png using Guid(0088fb38b68824f498b02830a406a0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f903e3f9480d27b6006b9aa4c1f3653') in 0.0111334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Tree_Tile_256_x_256_0.asset
+  artifactKey: Guid(f28d5aea179fac0468c4f247f6a8afbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Tree_Tile_256_x_256_0.asset using Guid(f28d5aea179fac0468c4f247f6a8afbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd14b7e3ccea8f6e419ecdda6a949109a') in 0.0070266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 154.304422 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Snow_Tile_1_Clean_256_x_256.png
+  artifactKey: Guid(53f92a6a82d832448992e41df5f4cf34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Snow_Tile_1_Clean_256_x_256.png using Guid(53f92a6a82d832448992e41df5f4cf34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c135bda7d11ce167d54f43c9f270131b') in 0.013952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Wood_House_1_2.asset
+  artifactKey: Guid(c8e62690fc1f8054c94f4fd98df7df86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Wood_House_1_2.asset using Guid(c8e62690fc1f8054c94f4fd98df7df86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53134a55525d66748088a5c10f69a5e6') in 0.004145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Wood_House_1_4.asset
+  artifactKey: Guid(6776bf4f4876aa5498ea06b4e1386989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Wood_House_1_4.asset using Guid(6776bf4f4876aa5498ea06b4e1386989) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2eaca2e816b00bfe24c608c277dc7017') in 0.0031101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Wood_House_1_1.asset
+  artifactKey: Guid(55a38fdfc18dfc04da9e774eb15c8202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Wood_House_1_1.asset using Guid(55a38fdfc18dfc04da9e774eb15c8202) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a6154362d890c2c2da4afbd27832686') in 0.0031201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Wood_House_1_5.asset
+  artifactKey: Guid(d796eec584fa9b348a1629eb1c4e29bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Wood_House_1_5.asset using Guid(d796eec584fa9b348a1629eb1c4e29bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '206c96bf0b0f2def270d512d07dba1da') in 0.0040476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Wood_House_1_6.asset
+  artifactKey: Guid(522790cc1a57321449a325901898993b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Wood_House_1_6.asset using Guid(522790cc1a57321449a325901898993b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67426ca00fa0610977261e1580dbe6ee') in 0.0028347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Tree_Tile_256_x_256_0.asset
+  artifactKey: Guid(f28d5aea179fac0468c4f247f6a8afbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Tree_Tile_256_x_256_0.asset using Guid(f28d5aea179fac0468c4f247f6a8afbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30599fdf6cb9c88cea83168f09c56df6') in 0.0081789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/sprites/tilemaps/sliced tiles/Snow_Tile_2_Clean_256_x_256.asset
+  artifactKey: Guid(68acdfd0c23c38341bb3c48fbd31fb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tilemaps/sliced tiles/Snow_Tile_2_Clean_256_x_256.asset using Guid(68acdfd0c23c38341bb3c48fbd31fb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0db0f2978078e299fbc1fbf83c58c57') in 0.0034061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
