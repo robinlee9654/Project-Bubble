@@ -1,4 +1,6 @@
 Library/
+
+# Ignore Unity's Temp folder
 Temp/
 
 TeamBubble/Temp/
