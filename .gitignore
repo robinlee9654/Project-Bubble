@@ -4,4 +4,11 @@ Library/
 # Ignore Unity's Temp folder
 Temp/
 
+# Ignore Unity Editor log files
+Editor.log
+Editor-prev.log
+
+# Ignore platform-specific logs (if applicable)
+*.log
+*.log.*
 
