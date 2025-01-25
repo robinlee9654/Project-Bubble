@@ -1,5 +1,6 @@
-#name is too long for windows to process
 Library/
 
 # Ignore Unity's Temp folder
 Temp/
+
+TeamBubble/Temp/
