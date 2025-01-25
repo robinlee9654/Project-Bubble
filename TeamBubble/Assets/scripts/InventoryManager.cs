@@ -38,14 +38,22 @@ public class InventoryManager : MonoBehaviour
     }
 
     public void ListItems(){
+        //clean content before open
+        foreach(Transform item in ItemContent){
+            Destroy(item.gameObject);
+        }
         foreach (var item in Items)
         {
             GameObject obj = Instantiate(InventoryItem, ItemContent);
-            var itemName = obj.transform.Find("Item/ItemName").GetComponent<Text>();
-            var itemIcon = obj.transform.Find("Item/ItemIcon").GetComponent<Image>();
+            var itemName = obj.transform.Find("ItemName").GetComponent<Text>();
+            var itemIcon = obj.transform.Find("ItemIcon").GetComponent<Image>();
 
             itemName.text = item.itemName;
             itemIcon.sprite = item.itemIcon;
         }
+    }
+
+    public void EnableItemsRemove(){
+        if (Enable)
     }
 }
