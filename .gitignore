@@ -3,32 +3,3 @@ Library/
 
 # Ignore Unity's Temp folder
 Temp/
-
-/TeamBubble/Logs
-
-
-/TeamBubble/Logs
-TeamBubble/Logs/shadercompiler-AssetImportWorker3-0.log
-TeamBubble/UserSettings/Layouts/default-6000.dwlt
-TeamBubble/Logs/shadercompiler-UnityShaderCompiler.exe-0.log
-TeamBubble/Logs/shadercompiler-AssetImportWorker9-0.log
-TeamBubble/Logs/shadercompiler-AssetImportWorker8-0.log
-TeamBubble/Logs/shadercompiler-AssetImportWorker6-0.log
-TeamBubble/Logs/shadercompiler-AssetImportWorker7-0.log
-TeamBubble/Logs/shadercompiler-AssetImportWorker2-0.log
-TeamBubble/Logs/shadercompiler-AssetImportWorker3-0.log
-TeamBubble/Logs/shadercompiler-AssetImportWorker10-0.log
-TeamBubble/Logs/shadercompiler-AssetImportWorker0-0.log
-TeamBubble/Logs/shadercompiler-AssetImportWorker1-0.log
-TeamBubble/Logs/AssetImportWorker9.log
-TeamBubble/Logs/AssetImportWorker8.log
-TeamBubble/Logs/AssetImportWorker6.log
-TeamBubble/Logs/AssetImportWorker7.log
-TeamBubble/Logs/AssetImportWorker0-prev.log
-TeamBubble/Logs/AssetImportWorker0.log
-TeamBubble/Logs/AssetImportWorker1-prev.log
-TeamBubble/Logs/AssetImportWorker1.log
-TeamBubble/Logs/AssetImportWorker10.log
-TeamBubble/Logs/AssetImportWorker2.log
-TeamBubble/Logs/AssetImportWorker4-prev.log
-TeamBubble/Logs/AssetImportWorker3.log
