@@ -5,10 +5,7 @@ Library/
 Temp/
 
 # Ignore Unity Editor log files
-Editor.log
-Editor-prev.log
+Editor.Logs
+Editor-prev.Logs
 
-# Ignore platform-specific logs (if applicable)
-*.log
-*.log.*
 
