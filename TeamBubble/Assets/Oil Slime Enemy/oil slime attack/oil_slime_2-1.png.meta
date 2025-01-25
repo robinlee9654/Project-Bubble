@@ -211,7 +211,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      oil_slime_2-1_0: -1390650396068246015
+      oil_slime_2-1_1: 4847785641754989907
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
