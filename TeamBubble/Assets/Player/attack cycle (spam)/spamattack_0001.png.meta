@@ -186,7 +186,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spamattack_0001_0: -7266473604315091492
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

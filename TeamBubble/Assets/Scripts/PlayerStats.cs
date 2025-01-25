@@ -47,9 +47,10 @@ public class PlayerStats : MonoBehaviour
         if (CurrentStamina <= 0)
         {
             // Trigger player death and respawn
-            GameManager.Instance.RestartFromCheckpoint(); // Respawn the player at the checkpoint
+            //GameManager.Instance.RestartFromCheckpoint(); // Respawn the player at the checkpoint
             Debug.Log("Player died, respawning...");
         }
+
     }
 
     private void SimulateStaminaDepletion()
@@ -102,5 +103,20 @@ public class PlayerStats : MonoBehaviour
             CurrentStamina -= damage;
             CurrentStamina = Mathf.Clamp(CurrentStamina, 0, maxStamina);
         }
+    }
+    public void ExtendArmorTime(float additionalTime)
+    {
+        if (IsArmorActive)
+        {
+            armorTimer += additionalTime;
+            Debug.Log($"Armor time extended by {additionalTime} seconds. New duration: {armorTimer:F2} seconds.");
+        }
+    }
+
+    public void ExtendStaminaTime(float additionalTime)
+    {
+        // Optionally extend stamina-related effects, like delaying depletion
+        CurrentStamina = Mathf.Clamp(CurrentStamina + Mathf.RoundToInt(staminaDepletionRate * additionalTime), 0, maxStamina);
+        Debug.Log($"Stamina time extended. Current Stamina: {CurrentStamina}/{maxStamina}");
     }
 }
