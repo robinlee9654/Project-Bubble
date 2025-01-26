@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 8623592581491180617}
   - component: {fileID: 5148138333489964270}
   - component: {fileID: 4948455778830086546}
-  - component: {fileID: 6537382726293563294}
   - component: {fileID: 6816607109762312108}
+  - component: {fileID: 3910219796511776330}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6f6d7fa6daeb2c47a6b76e4d7a187bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 50
+  maxHealth: 100
   armorDropPrefab: {fileID: 0}
   staminaDropPrefab: {fileID: 0}
   dropChance: 0.5
@@ -145,19 +145,6 @@ MonoBehaviour:
   moveSpeed: 2
   detectionRange: 5
   wanderInterval: 2
---- !u!114 &6537382726293563294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6380191732285208494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b4a0f614a5468547a155f3af766136a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
 --- !u!50 &6816607109762312108
 Rigidbody2D:
   serializedVersion: 5
@@ -185,3 +172,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3910219796511776330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6380191732285208494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9957bde5885ddef4d9b3cd23e73651b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meleeRange: 1.5
+  meleeDamage: 10
+  attackCooldown: 2
+  debuffDuration: 3
